@@ -10,17 +10,16 @@
  * please view the LICENSE file that was distributed with this source code.
  */
 
-namespace WellCommerce\Bundle\LayeredNavigationBundle\Manager\Front;
+namespace WellCommerce\Bundle\LayeredNavigationBundle\Manager;
 
-use WellCommerce\Bundle\CoreBundle\Manager\Front\AbstractFrontManager;
-use WellCommerce\Bundle\CoreBundle\Manager\Front\FrontManagerInterface;
+use WellCommerce\Bundle\CoreBundle\Manager\AbstractManager;
 
 /**
  * Class LayeredNavigationManager
  *
  * @author  Adam Piotrowski <adam@wellcommerce.org>
  */
-class LayeredNavigationManager extends AbstractFrontManager implements FrontManagerInterface
+class LayeredNavigationManager extends AbstractManager
 {
 
 }
